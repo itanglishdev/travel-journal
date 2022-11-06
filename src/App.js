@@ -5,11 +5,14 @@ import Card from './components/Card';
 
 function App() {
 
-
+  const card = data.map((item,idx)=> {
+    return <Card key={idx} {...item}
+    />
+  })
   return (
   <div>
     <Navbar/>
-    <Card/>
+    {card}
   </div>
   );
 }
