@@ -15,20 +15,22 @@ body {
 .navbar, .card{
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 15px;
   justify-content: center;
   
 }
 
 .navbar {
-  background-color: rgb(107, 107, 246);
+  background-color: rgb(85, 85, 244);
   color: white;
   margin:auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  /* margin-top: 5px; */
+  margin-bottom: 30px;
   max-width: 1200px;
   display: flex;
   font-size: large;
+  border-radius: 8px;
+  word-spacing: 8px;
 }
 
 .main-card-container {
@@ -41,19 +43,23 @@ body {
 
 .card {
   width: 600px;
-  margin: 10px;
+  margin: 15px;
+  text-align: justify;
 }
 
 .card__name {
   letter-spacing: 2px;
+  text-align: center;
+  margin: 30px;
 }
 
 .card__info-tab {
-  background-color: rgb(229, 185, 249);
+  background-color: rgb(237, 197, 255);
   width: 900px;
-  
-  padding: 10px;
-  border-radius: 0 5px 5px 0;
+  /* padding: 8px; */
+    
+  padding: 25px;
+  border-radius: 0 8px 8px 0;
 }
 .card__duration {
   font-weight: 600;

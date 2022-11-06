@@ -5,7 +5,7 @@ function Navbar() {
     
     return ( 
           <nav className="navbar">
-            <BiWorld size={'30'}/>
+            <BiWorld size={'40'}/>
             <h2>my Travel Journal</h2>
           </nav>  
      );
