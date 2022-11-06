@@ -1,18 +1,73 @@
 body {
+  text-align: center;
   margin: 0;
-  font-family: 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    serif;
+  font-family: 
+  'Courier New',
+    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-.navbar {
+} */
+.navbar, .card{
   display: flex;
   align-items: center;
   gap: 10px;
+  justify-content: center;
+  
+}
+
+.navbar {
+  background-color: rgb(107, 107, 246);
+  color: white;
+  margin:auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 1200px;
+  display: flex;
+  font-size: large;
+}
+
+.main-card-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  flex-direction: column;
+} 
+
+.card {
+  width: 600px;
+  margin: 10px;
+}
+
+.card__name {
+  letter-spacing: 2px;
+}
+
+.card__info-tab {
+  background-color: rgb(229, 185, 249);
+  width: 900px;
+  
+  padding: 10px;
+  border-radius: 0 5px 5px 0;
+}
+.card__duration {
+  font-weight: 600;
+  font-size: small;
+}
+
+.card__location {
+  font-style: italic;
+}
+.card__description {
+  font-size: 1.1rem;
+  font-weight: lighter;
+}
+
+img {
+  width: 400px;
 }

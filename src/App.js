@@ -12,7 +12,9 @@ function App() {
   return (
   <div>
     <Navbar/>
-    {card}
+    <div className='main-card-container'>
+      {card}
+    </div>
   </div>
   );
 }
