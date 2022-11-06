@@ -1,5 +1,6 @@
-import './App.css';
+import './index.css';
 import Navbar from './components/Navbar';
+import Data from './Data'
 
 function App() {
   return (
